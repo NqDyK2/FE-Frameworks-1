@@ -1,0 +1,61 @@
+<a routerLink="/admin/works/add">
+    <button
+        class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+        <span
+            class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            Add more Works
+        </span>
+    </button>
+</a>
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3">
+                    Works Title
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Works Theme
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Practice
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Introduce
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    <span class="sr-only">Edit</span>
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    <span class="sr-only">Edit</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let work of works; let i = index"
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                    {{ work.title }}
+                </th>
+                <td class="px-6 py-4">
+                    {{ work.cate}}
+                </td>
+                <td class="px-6 py-4">
+                     {{ work.years }}
+                </td>
+                <td class="px-6 py-4 text-ellipsis">
+                    {{ work.desc }}
+                </td>
+                <td class="px-6 py-4 text-right">
+                    <button class="font-medium text-blue-600 dark:text-blue-500 hover:underline" >Edit</button>
+
+                </td>
+                <td class="px-6 py-4 text-right">
+                    <button class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                        (click)="onHanldeRemove(work.id!)">Del</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

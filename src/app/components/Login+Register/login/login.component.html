@@ -1,0 +1,8 @@
+<!--  -->
+<form #formAdd="ngForm" (ngSubmit)="submitForm(formAdd)" >
+    <h1>Login</h1>
+    <input  name="email" placeholder="email"  />
+    <strong>Password: </strong>
+    <input type="password" name="password" placeholder="password"  ngModel />
+    <button>Submit</button>
+</form>

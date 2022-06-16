@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A afted edit",
+      "price": 1002,
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 200,
+      "status": true
+    },
+    {
+      "name": "1235dgfg",
+      "price": 12345,
+      "status": true,
+      "id": 3
+    },
+    {
+      "name": "Test Add Product",
+      "price": 123456,
+      "status": true,
+      "id": 4
+    },
+    {
+      "name": "Testtttt",
+      "price": 123456,
+      "status": true,
+      "id": 6
+    },
+    {
+      "name": "Test 2 ",
+      "price": 123456,
+      "status": true,
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "afc@gmail.com",
+      "password": "$2a$10$h1wWw2NHfuqzMihuIoD5PepO07kAJM/Q6BtAvs8kxCRNxGwq8493.",
+      "id": 1
+    },
+    {
+      "email": "nqdy0110@gmail.com",
+      "password": "$2a$10$k6laG1r2MgKDZ5.uIlp4l.O1NlIwpaQcW7d9VT2fNbSURm6GrOEkG",
+      "id": 2
+    },
+    {
+      "email": "Admin@gmail.com",
+      "password": "$2a$10$wN.AKpWU6nfO2wy8ZNUpgOhy22rS69b4dAZ8IAJotsqTVfvbEp1A6",
+      "id": 3
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "title": "Personal ReactJs",
+      "cate": "Personal Project",
+      "years": 2022,
+      "desc": "This is a personal project written in ReactJs for the subject. The project with the theme is selling furniture. Lessons learned: use API, learn necessary documentation, split layouts, learn ReactJs consistently",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "title": "Project 1 - GreenCoCo ",
+      "cate": "Team Project",
+      "years": 2021,
+      "desc": "This is the first subject project I do in a team of 3. The project theme is selling vegetables. The project is written in PHP, it's done very well and gained experience in team work and interface design using Figma tool..."
+    },
+    {
+      "id": 3,
+      "title": "Personal ReactJs - Tóp tóp",
+      "cate": "Personal Project",
+      "years": 2022,
+      "desc": "This is a project to clone the famous Tiktok site. Guided by F8 website with mentor Mr. Son Dang . The project is under construction up to the present time.",
+      "thumbnail": "https://res.cloudinary.com/dielvkumg/image/upload/v1655340391/toptop_qlz2fb.jpg",
+      "Heading1": "https://res.cloudinary.com/dielvkumg/image/upload/v1655340430/Heading_3_kbjw6b.png",
+      "Heading2": "https://res.cloudinary.com/dielvkumg/image/upload/v1655340425/Heading_2_ovtqma.png",
+      "Heading3": "https://res.cloudinary.com/dielvkumg/image/upload/v1655340425/Heading_2_ovtqma.png"
+    },
+    {
+      "title": "Project 1",
+      "cate": "Team Project ",
+      "years": 2022,
+      "desc": "gsfvsdkjl",
+      "id": 4
+    }
+  ]
+}

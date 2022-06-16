@@ -1,0 +1,125 @@
+<section class="banner">
+  <div class="custom-container">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="banner-content">
+        <h2 class="banner-content__title">
+          Hi, I am NqDyy^^ - Nguyễn Duy, Front-End Developer
+        </h2>
+        <p class="banner-content__desc">
+          As an Intern, I want to have a stable internship so that I can develop all my knowledge and skills learned at
+          FPoly college.
+        </p>
+        <a href="" class="btn btn-danger banner-content__btn">Download Resume</a>
+      </div>
+      <div class="banner-picture">
+        <img src="https://res.cloudinary.com/dielvkumg/image/upload/v1644335712/xjsyjda5xqrwjakfaxab.jpg" width="243px"
+          alt="" class="banner-picture__thumb" />
+      </div>
+    </div>
+  </div>
+</section>
+<!--End .banner-->
+<section class="recent-post">
+  <div class="custom-container">
+    <div class="seciton-header">
+      <h2 class="seciton-header__title">Recent post</h2>
+      <a href="">View all</a>
+    </div>
+    <div class="section-body">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="recent-post__item">
+          <h3 class="recent-post__title">
+            Making a design system from scratch
+          </h3>
+          <div class="recent-post__meta">
+            <span>12 Feb 2020</span>
+            <span>|</span>
+            <a href="">Design, Pattern</a>
+          </div>
+          <p class="recent-post__desc">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+            amet sint. Velit officia consequat duis enim velit mollit.
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+        <div class="recent-post__item">
+          <h3 class="recent-post__title">
+            Making a design system from scratch
+          </h3>
+          <div class="recent-post__meta">
+            <span>12 Feb 2020</span>
+            <span>|</span>
+            <a href="">Design, Pattern</a>
+          </div>
+          <p class="recent-post__desc">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+            amet sint. Velit officia consequat duis enim velit mollit.
+            Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="projects">
+  <div class="custom-container">
+    <div class="seciton-header">
+      <h2 class="seciton-header__title">Feature Projects</h2>
+    </div>
+
+    <div class="section-body" *ngFor="let work of works; let i = index">
+        <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
+          <div class="project__img">
+            <img src="https://picsum.photos/246/180" alt="" class="project__thumbnail" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__name">{{ work.title }}</h3>
+            <div class="project__meta">
+              <span class="project__createat">{{ work.years }}</span>
+              <a href="" class="project__category">{{ work.cate }}</a>
+            </div>
+            <p>
+              {{work.desc}}
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!--End .project-item-->
+<!-- <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
+          <div class="project__img">
+            <img src="https://picsum.photos/246/180" alt="" class="project__thumbnail" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__name">Designing Dashboards</h3>
+            <div class="project__meta">
+              <span class="project__createat">2020</span>
+              <a href="" class="project__category">Dashboard</a>
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div> -->
+<!--End .project-item-->
+<!-- <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
+          <div class="project__img">
+            <img src="https://picsum.photos/246/180" alt="" class="project__thumbnail" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__name">Designing Dashboards</h3>
+            <div class="project__meta">
+              <span class="project__createat">2020</span>
+              <a href="" class="project__category">Dashboard</a>
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div> -->
+<!--End .project-item-->
